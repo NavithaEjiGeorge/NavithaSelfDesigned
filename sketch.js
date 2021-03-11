@@ -172,7 +172,7 @@ var powerCount = 6;
 var thief_left
 function preload() {
   //playing and non - playing characters of the game
-  player_Img = loadAnimation("/playerImages/Run (1).png", "/playerImages/Run (2).png", "/playerImages/Run (3).png", "/playerImages/Run (4).png", "/playerImages/Run (5).png", "/playerImages/Run (6).png", "/playerImages/Run (7).png", "/playerImages/Run (8).png", "/playerImages/Run (9).png")
+  player_Img = loadAnimation("playerImages/Run (1).png", "playerImages/Run (2).png", "playerImages/Run (3).png", "playerImages/Run (4).png", "playerImages/Run (5).png", "playerImages/Run (6).png", "playerImages/Run (7).png", "playerImages/Run (8).png", "/playerImages/Run (9).png")
   playerWalk_Img = loadAnimation("/playerImages/Walk (1).png", "/playerImages/Walk (2).png", "/playerImages/Walk (3).png", "/playerImages/Walk (4).png", "/playerImages/Walk (5).png", "/playerImages/Walk (6).png", "/playerImages/Walk (7).png", "/playerImages/Walk (8).png", "/playerImages/Walk (9).png", "/playerImages/Walk (10).png")
   playerleftWalk_Img = loadAnimation("/playerImages/image.png", "/playerImages/image (1).png", "/playerImages/image (2).png", "/playerImages/image (3).png", "/playerImages/image (4).png", "/playerImages/image (5).png", "/playerImages/image (6).png", "/playerImages/image (7).png", "/playerImages/image (8).png", "/playerImages/image (9).png")
   playerJumpAttack_Img = loadAnimation("/playerImages/JumpAttack (1).png", "/playerImages/JumpAttack (2).png", "/playerImages/JumpAttack (3).png", "/playerImages/JumpAttack (4).png", "/playerImages/JumpAttack (5).png", "/playerImages/JumpAttack (6).png", "/playerImages/JumpAttack (7).png", "/playerImages/JumpAttack (8).png", "/playerImages/JumpAttack (9).png")
