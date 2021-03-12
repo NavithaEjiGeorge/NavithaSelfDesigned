@@ -1,7 +1,7 @@
 var gameState = "start";
 var arrowState = "right"
 //sounds
-var caveS;
+
 //images and animations
 var still;
 var dancer_Img;
@@ -261,7 +261,6 @@ function preload() {
   bg5 = loadImage("bg5.jpg")
   bg6 = loadImage("bg6.jpg")
   //sounds
-  caveS = loadSound("sounds/cave.mp3")
 }
 function setup() {
   createCanvas(displayWidth - 5, displayHeight - 5)
@@ -955,7 +954,7 @@ function draw() {
     fill("pink")
     textSize(35)
     textFont("Chiller")
-
+    text("PLAY THIS GAME IN FULL SCREEN MODE FOR BETTER EXPERIENCE",800,600)
     text("I am 'Lucidro 'the king of the great MELINDRO KINGDOM , My daughter's name is Princess Alexandra ",200,200)
     text("The pyros clan of theives has kidnapped her . Please help me to find her . She is our precious jewel ",200,250)
     text("If you are ready to help us , you will be gifted with the kingdom and the princess",300,300)
@@ -977,7 +976,6 @@ function draw() {
   }
   if (gameState === "play") {
     background(cavebg_Img)
-    caveS.play()
 
     player.collide(border1)
     player.collide(border2)
