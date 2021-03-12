@@ -954,7 +954,7 @@ function draw() {
     fill("pink")
     textSize(35)
     textFont("Chiller")
-    text("PLAY THIS GAME IN FULL SCREEN MODE FOR BETTER EXPERIENCE",800,600)
+    text("PLAY THIS GAME IN FULL SCREEN MODE FOR BETTER EXPERIENCE",600,600)
     text("I am 'Lucidro 'the king of the great MELINDRO KINGDOM , My daughter's name is Princess Alexandra ",200,200)
     text("The pyros clan of theives has kidnapped her . Please help me to find her . She is our precious jewel ",200,250)
     text("If you are ready to help us , you will be gifted with the kingdom and the princess",300,300)
